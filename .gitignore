@@ -1,0 +1,33 @@
+# Vivado project and generated state; regenerate with import_sources.tcl
+/FM_DEMOD_V.xpr
+/FM_DEMOD_V.cache/
+/FM_DEMOD_V.hw/
+/FM_DEMOD_V.ip_user_files/
+/FM_DEMOD_V.runs/
+/FM_DEMOD_V.sim/
+/FM_DEMOD_V.srcs/
+/.Xil/
+/build/
+
+# Local simulator outputs and waveforms
+/sim_work/
+/xsim_work/
+/xsim.dir/
+/*.log
+/*.jou
+/*.pb
+/dfx_runtime.txt
+*.wdb
+*.vcd
+*.wlf
+*.dcp
+*.bit
+*.mcs
+
+# Historical copies are retained locally but are not build inputs
+/src/rtl/backup_orig/
+/src/sim/*.bak
+
+# Python
+__pycache__/
+*.py[cod]

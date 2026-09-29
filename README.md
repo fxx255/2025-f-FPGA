@@ -1,4 +1,4 @@
-# 基于 FPGA 的 FM/AM 数字解调器
+# 2025 全国大学生电子设计竞赛 F 题 FPGA
 
 这是一个基于 FPGA 的宽带 FM/AM 自动识别与数字解调参考实现，面向 XI050CD（XC7A50TFGG484-1）开发板。工程使用 Verilog、Vivado 和 XSim，包含载波自动扫描、FM/AM 判决、解调、AGC 以及 DAC 输出链路。
 

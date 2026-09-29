@@ -1,0 +1,9 @@
+# Keep source files readable and make GitHub identify the HDL language.
+* text=auto eol=lf
+*.v text eol=lf
+*.xdc text eol=lf
+*.tcl text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+*.hex text eol=lf
+*.txt text eol=lf
