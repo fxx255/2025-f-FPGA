@@ -30,8 +30,6 @@ gen_mcs.tcl    将 bitstream 打包为 SPI Flash 的 MCS
 run_verify.sh  Git Bash 下的一键仿真验证
 ```
 
-Vivado 的 `.cache/`、`.runs/`、`.sim/`、`xsim_work/` 等本地生成物已加入 `.gitignore`，不会成为开源仓库内容。
-
 ## 环境
 
 - Vivado 2025.2（推荐；其他版本可能需要调整 IP/仿真命令）
