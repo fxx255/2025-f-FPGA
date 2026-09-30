@@ -86,13 +86,3 @@ vivado -mode batch -source gen_mcs.tcl
 
 原创部分采用 MIT License，见 [LICENSE](LICENSE)。`src/rtl` 中的通用 FFT 模块来自 Gisselquist Technology 的 Pipelined FFT 项目，文件保留其 LGPL-3.0-or-later 版权头；详见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。发布时请同时保留这些版权和许可证声明。
 
-## 已知验证范围
-
-- 当前自动化测试仅覆盖 FM 激励；原 Vivado 项目曾引用 AM 测试平台和激励文件，但这些文件目前不在源码目录中，不能声称 AM 已有独立回归测试。
-- ADC/DAC 时序约束包含占位值；历史实现报告虽显示满足其约束，不能替代真实板卡时序核对。
-- BUG_REPORT.md 的 v3.5 记录仍将噪声过零阈值、低频边界和一次复位锁定列为待上板验证项。
-- 本次整理未成功启动本机 Vivado，新的项目生成、仿真及 bitstream 构建尚未重新验证。
-
-## 贡献与复现实验
-
-欢迎提交不同载波、调制频率、输入幅度和板卡版本的仿真结果。请在 issue 或 PR 中附上 Vivado 版本、器件型号、约束修改和关键仿真日志，便于复核。
